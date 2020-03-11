@@ -8,6 +8,7 @@
 
     <view
         android:id="@+id/gameView"
+        class="com.example.puissance4_eval.views.PlateauView"
         android:layout_width="match_parent"
         android:layout_height="602dp"
         android:layout_gravity="center_horizontal" />
