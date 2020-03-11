@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <view
+        android:id="@+id/gameView"
+        android:layout_width="match_parent"
+        android:layout_height="602dp"
+        android:layout_gravity="center_horizontal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1" />
+
+    <EditText
+        android:id="@+id/joueurOrdre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="C'est à Joueur 1 : Couleur RED de jouer"
+        android:textAlignment="center">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/btnLeave"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.10"
+        android:text="Abandonner !! #RageQuit"
+        android:textSize="18dp" />
+</LinearLayout>
